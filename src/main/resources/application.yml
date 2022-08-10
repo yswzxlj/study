@@ -1,0 +1,19 @@
+spring:
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+
+  data:
+    mongodb:
+      #uri:  mongodb://test:123456@47.107.38.190:27017/mytest?authSource=admin&authMechanism=SCRAM-SHA-1
+      host: 47.107.38.190
+      port: 27017
+      database: lchtest
+server:
+  port: 8090
+
+logging:
+  config: classpath:logback-spring-dev.xml
+  level:
+    net.csdn: info
+  
