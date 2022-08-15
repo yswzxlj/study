@@ -82,6 +82,15 @@
             <version>31.1-jre</version>
         </dependency>
 
+        
+       <!-- sentinel配置-->
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-sentinel</artifactId>
+            <version>2021.0.1.0</version>
+        </dependency>
+
+
 
     </dependencies>
 

@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
  * @Version: v1.0
  */
 
-@RestControllerAdvice
+/*@RestControllerAdvice*/
 public class GlobalExceptionHandler {
     @ExceptionHandler(Exception.class)
     public String handleException(Exception e){

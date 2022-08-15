@@ -1,8 +1,15 @@
 spring:
+  application:
+    name: mystudy
   mvc:
     pathmatch:
       matching-strategy: ant_path_matcher
-
+  cloud:
+    sentinel:
+      transport:
+        dashboard: 47.107.38.190:8080
+        port: 8721
+        
   data:
     mongodb:
       #uri:  mongodb://test:123456@47.107.38.190:27017/mytest?authSource=admin&authMechanism=SCRAM-SHA-1
